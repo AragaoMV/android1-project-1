@@ -32,12 +32,14 @@
         tools:layout_editor_absoluteY="35dp"/>
 
     <EditText
+        android:id="@+id/nomeLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nome"
         android:fontFamily="sans-serif-condensed"/>
 
     <Button
+        android:id="@+id/btnEntrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="0dp"
