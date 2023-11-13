@@ -5,9 +5,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    style="@style/ScreenBackground"
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/trocaTema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/thumb"
+        app:track="@drawable/tack"
+        android:layout_gravity="end"
+
+        />
 
     <TextView
         android:layout_width="match_parent"
@@ -19,11 +30,12 @@
         android:textSize="26sp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="35dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/subTitulo"
-        android:textColor="@color/black"
+        style="@style/TextColor"
         android:fontFamily="sans-serif-condensed"
         android:textStyle="bold"
         android:padding="10dp"
@@ -47,4 +59,5 @@
         android:text="@string/botao"
         android:textColor="@color/black"
         android:backgroundTint="@color/green"/>
+
 </LinearLayout>

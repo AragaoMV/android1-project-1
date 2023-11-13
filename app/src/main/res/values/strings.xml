@@ -4,4 +4,5 @@
     <string name="subTitulo">Por favor digite seu nome</string>
     <string name="layoutNome">nome</string>
     <string name="botao">ENTRAR</string>
+    <string name="recepcao">Seja bem-vindo,</string>
 </resources>
