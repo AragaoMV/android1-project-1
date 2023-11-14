@@ -48,7 +48,9 @@ public class HomeScreenActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String inputName = nomeLista.getText().toString().trim();
                 names.add(inputName);
-                nameAdapter.notifyItemInserted(names.size()-1);
+                nameAdapter.notifyDataSetChanged();
+                nomeLista.setText("");
+
             }
         });
     }

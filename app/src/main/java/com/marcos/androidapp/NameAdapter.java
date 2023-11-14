@@ -21,7 +21,7 @@ public class NameAdapter extends RecyclerView.Adapter<NameAdapter.NameViewHolder
     @NonNull
     @Override
     public NameViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_home_screen, parent, false);
+        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_name, parent, false);
         return new NameViewHolder(itemView);
     }
 
