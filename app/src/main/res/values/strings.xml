@@ -5,4 +5,7 @@
     <string name="layoutNome">nome</string>
     <string name="botao">ENTRAR</string>
     <string name="recepcao">Seja bem-vindo,</string>
+    <string name="enunciadoHome">Insira o nome na lista</string>
+    <string name="btnHome">ENVIAR</string>
+    <string name="Lista">Lista de Nomes</string>
 </resources>
